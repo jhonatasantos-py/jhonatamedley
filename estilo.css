@@ -1,0 +1,102 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+  
+
+body{
+    background-color: rgba(18, 18, 18, 0.95);;
+}
+
+
+
+
+/*Editando o cabeçalho basico*/
+header {
+    width: 100%;
+    background-color: rgba(100, 65, 165, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a h1{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.logo a{
+    
+    text-decoration: none;
+ 
+
+}
+
+.logo a h1:hover {
+
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+
+li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+
+
+.conteudo {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+
+.apresentacao {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    
+    
+
+}
+
+
+
+.foto img{
+    width: 350px; 
+    height: auto; 
+    border-radius: 50%;
+}
+
+footer {
+    background-color: rgba(100, 65, 165, 0.5);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
